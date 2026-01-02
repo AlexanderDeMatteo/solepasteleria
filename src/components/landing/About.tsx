@@ -1,9 +1,10 @@
 
 'use client';
 import Image from "next/image";
-import { PlaceHolderImages } from "@/lib/placeholder-images";
+import ysopreciosa from "../../lib/ysopreciosa.jpg";
 import { Card, CardContent } from "@/components/ui/card";
 import { Sun } from "lucide-react";
+import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 export function About() {
   const aboutImage = PlaceHolderImages.find(p => p.id === 'sole-portrait');
@@ -36,7 +37,7 @@ export function About() {
               <Card className="overflow-hidden shadow-2xl rounded-2xl w-full max-w-sm transform transition-all duration-500 hover:scale-105 hover:shadow-primary/20">
                 <CardContent className="p-0">
                   <Image
-                    src={aboutImage.imageUrl}
+                    src={ysopreciosa}
                     alt={aboutImage.description}
                     width={500}
                     height={600}
