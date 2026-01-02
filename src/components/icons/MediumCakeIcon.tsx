@@ -1,7 +1,11 @@
+
 export function MediumCakeIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"
@@ -9,9 +13,12 @@ export function MediumCakeIcon(props: React.SVGProps<SVGSVGElement>) {
       strokeLinecap="round"
       strokeLinejoin="round"
     >
-      <path d="M19 20v-8a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v8" />
-      <path d="M5 20c-1.1 0-2 .9-2 2v0a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v0c0-1.1-.9-2-2-2Z" />
-      <path d="M12 4a2 2 0 0 0 2-2V1a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v1a2 2 0 0 0 2 2h2Z" />
+      <path d="M12 4c-1.1 0-2 .9-2 2v3c0 1.1.9 2 2 2s2-.9 2-2V6c0-1.1-.9-2-2-2z" />
+      <path d="M12 4h.01" />
+      <path d="M16 8h.01" />
+      <path d="M8 8h.01" />
+      <path d="M20 21v-8a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8" />
+      <path d="M4 16c-1.1 0-2 .9-2 2v2c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2v-2c0-1.1-.9-2-2-2" />
     </svg>
   );
 }
