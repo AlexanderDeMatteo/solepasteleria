@@ -1,5 +1,6 @@
 
 import { Hero } from "@/components/landing/Hero";
+import { About } from "@/components/landing/About";
 import { Gallery } from "@/components/landing/Gallery";
 import { OrderForm } from "@/components/landing/OrderForm";
 import { Footer } from "@/components/landing/Footer";
@@ -9,6 +10,7 @@ export default function Home() {
     <div className="flex flex-col min-h-screen bg-background">
       <main className="flex-1">
         <Hero />
+        <About />
         <Gallery />
         <OrderForm />
       </main>
