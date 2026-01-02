@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Card, CardContent } from "@/components/ui/card";
-import { Sparkles } from "lucide-react";
+import { Sun } from "lucide-react";
 
 export function About() {
   const aboutImage = PlaceHolderImages.find(p => p.id === 'sole-portrait');
@@ -17,9 +17,9 @@ export function About() {
               Nuestra Historia
             </h2>
             <div className="flex my-4">
-                <Sparkles className="mr-2 h-6 w-6 text-accent" />
-                <Sparkles className="mr-2 h-6 w-6 text-accent" style={{animationDelay: "0.2s"}}/>
-                <Sparkles className="h-6 w-6 text-accent" style={{animationDelay: "0.4s"}}/>
+                <Sun className="mr-2 h-6 w-6 text-accent" />
+                <Sun className="mr-2 h-6 w-6 text-accent" style={{animationDelay: "0.2s"}}/>
+                <Sun className="h-6 w-6 text-accent" style={{animationDelay: "0.4s"}}/>
             </div>
             <p className="mt-4 text-lg text-gray-600">
               SolePasteleria nació de un sueño y una pasión por la repostería que se ha cultivado desde la infancia. Cada torta es una obra de arte, una expresión de amor y dedicación.

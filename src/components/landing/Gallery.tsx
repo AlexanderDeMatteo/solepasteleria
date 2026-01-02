@@ -9,7 +9,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
-import { KawaiiStar } from "@/components/icons/KawaiiStar";
+import { KawaiiSun } from "@/components/icons/KawaiiSun";
 
 export function Gallery() {
   const cakeImages = PlaceHolderImages.filter(p => p.id.startsWith('cake-'));
@@ -26,7 +26,7 @@ export function Gallery() {
           </p>
           <div className="flex justify-center mt-4">
              <div className="w-12 h-12 text-accent">
-                <KawaiiStar />
+                <KawaiiSun />
               </div>
           </div>
         </div>

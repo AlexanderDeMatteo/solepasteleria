@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { ChevronDown, Sparkles } from "lucide-react";
+import { ChevronDown, Sun } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
 export function Hero() {
@@ -12,7 +12,7 @@ export function Hero() {
             variant="outline"
             className="mb-4 animate-fade-in-up border-primary/30 bg-primary/10 text-primary-foreground shadow-sm"
           >
-            <Sparkles className="mr-2 h-4 w-4 text-accent" />
+            <Sun className="mr-2 h-4 w-4 text-accent" />
             Repostería Artesanal
           </Badge>
           <div
