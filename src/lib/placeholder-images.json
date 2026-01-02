@@ -1,3 +1,46 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "sole-portrait",
+      "description": "A portrait of Sole, the pastry chef.",
+      "imageUrl": "https://images.unsplash.com/photo-1684132052745-23cd410ecd31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d29tYW4lMjBiYWtlcnxlbnwwfHx8fDE3NjczOTIyNjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman baker"
+    },
+    {
+      "id": "cake-1",
+      "description": "A beautiful custom cake with floral decorations.",
+      "imageUrl": "https://images.unsplash.com/photo-1661551428516-cd1b02c11d97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjYWtlJTIwZGVzaWdufGVufDB8fHx8MTc2NzM5MjI2MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cake design"
+    },
+    {
+      "id": "cake-2",
+      "description": "A multi-layered chocolate cake.",
+      "imageUrl": "https://images.unsplash.com/photo-1602351447937-745cb720612f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaG9jb2xhdGUlMjBjYWtlfGVufDB8fHx8MTc2NzM0MTUxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chocolate cake"
+    },
+    {
+      "id": "cake-3",
+      "description": "A colorful birthday cake.",
+      "imageUrl": "https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiaXJ0aGRheSUyMGNha2V8ZW58MHx8fHwxNzY3MzI2MTQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "birthday cake"
+    },
+    {
+      "id": "cake-4",
+      "description": "An elegant wedding cake.",
+      "imageUrl": "https://images.unsplash.com/photo-1535254973040-607b474cb50d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3ZWRkaW5nJTIwY2FrZXxlbnwwfHx8fDE3NjczOTIyNjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wedding cake"
+    },
+    {
+      "id": "cake-5",
+      "description": "A delicious looking vanilla cake slice.",
+      "imageUrl": "https://images.unsplash.com/photo-1624975964661-4999f124a4c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx2YW5pbGxhJTIwY2FrZXxlbnwwfHx8fDE3NjczOTIyNjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vanilla cake"
+    },
+    {
+      "id": "cake-6",
+      "description": "A cute cartoon-themed cake for kids.",
+      "imageUrl": "https://images.unsplash.com/photo-1694976245427-f326619174fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjaGlsZHJlbiUyMGNha2V8ZW58MHx8fHwxNzY3MzkyMjYwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "children cake"
+    }
+  ]
 }
