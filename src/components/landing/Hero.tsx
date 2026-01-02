@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge";
 
 export function Hero() {
   return (
-    <section className="relative flex items-center justify-center min-h-[calc(100vh-64px)] overflow-hidden bg-gradient-to-b from-background via-secondary to-background text-center">
+    <section className="relative flex items-center justify-center min-h-screen overflow-hidden bg-gradient-to-b from-background via-secondary to-background text-center">
       <div className="container relative z-10 px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center">
           <Badge
