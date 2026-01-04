@@ -4,8 +4,8 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 224 71.4% 4.1%;
+    --background: 283 50% 98%; /* #FBF7FD */
+    --foreground: 240 4% 18%; /* #2D2D2D */
 
     --card: 0 0% 100%;
     --card-foreground: 224 71.4% 4.1%;
@@ -13,9 +13,9 @@
     --popover: 0 0% 100%;
     --popover-foreground: 224 71.4% 4.1%;
 
-    /* Primary: Lila from user */
-    --primary: 283 89% 76%; /* #D989F7 */
-    --primary-foreground: 224 71.4% 4.1%;
+    /* Primary: Lilac Gradient - using the start color */
+    --primary: 282 85% 77%; /* #D687F3 */
+    --primary-foreground: 240 4% 18%;
 
     --secondary: 283 89% 97%; /* Light lila */
     --secondary-foreground: 283 20% 30%;
@@ -23,22 +23,22 @@
     --muted: 220 14.3% 95.9%;
     --muted-foreground: 220 8.9% 46.1%;
 
-    /* Accent: Bright yellow from user */
-    --accent: 57 100% 50%; /* #FFF200 */
-    --accent-foreground: 57 100% 10%;
+    /* Accent: Muted Gold */
+    --accent: 41 53% 56%; /* #C5A059 */
+    --accent-foreground: 41 53% 16%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
     --border: 220 13% 91%;
     --input: 220 13% 91%;
-    --ring: 283 89% 76%;
+    --ring: 282 85% 77%;
 
     --radius: 0.75rem;
   }
 
   .dark {
-    --background: 224 71.4% 4.1%;
+    --background: 240 4% 10%;
     --foreground: 210 20% 98%;
 
     --card: 224 71.4% 4.1%;
@@ -47,8 +47,8 @@
     --popover: 224 71.4% 4.1%;
     --popover-foreground: 210 20% 98%;
 
-    /* Primary: Lila */
-    --primary: 283 80% 80%;
+    /* Primary: Lilac */
+    --primary: 282 80% 80%;
     --primary-foreground: 224 71.4% 4.1%;
     
     --secondary: 283 30% 15%;
@@ -57,16 +57,16 @@
     --muted: 215 27.9% 16.9%;
     --muted-foreground: 217.9 10.6% 64.9%;
 
-    /* Accent: A darker yellow for UI elements in dark mode */
-    --accent: 57 100% 60%;
-    --accent-foreground: 57 100% 10%;
+    /* Accent: Muted Gold */
+    --accent: 41 53% 66%;
+    --accent-foreground: 41 53% 16%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 85.7% 97.3%;
 
     --border: 215 27.9% 16.9%;
     --input: 215 27.9% 16.9%;
-    --ring: 283 80% 80%;
+    --ring: 282 80% 80%;
   }
 }
 
