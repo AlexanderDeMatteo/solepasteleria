@@ -1,4 +1,3 @@
-
 "use client";
 import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
@@ -9,7 +8,6 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { KawaiiSun } from "@/components/icons/KawaiiSun";
 
 export function Gallery() {

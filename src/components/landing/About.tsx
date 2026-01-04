@@ -1,15 +1,9 @@
-
 'use client';
 import Image from "next/image";
-import ysopreciosa from "../../lib/ysopreciosa.jpg";
 import { Card, CardContent } from "@/components/ui/card";
-import { Sun } from "lucide-react";
-import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { KawaiiSun } from "../icons/KawaiiSun";
 
 export function About() {
-  const aboutImage = PlaceHolderImages.find(p => p.id === 'sole-portrait');
-
   return (
     <section id="about" className="bg-secondary/50 py-16 sm:py-24">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -34,20 +28,18 @@ export function About() {
             </p>
           </div>
           <div className="order-1 md:order-2 flex justify-center">
-            {aboutImage && (
-              <Card className="overflow-hidden shadow-2xl rounded-2xl w-full max-w-sm transform transition-all duration-500 hover:scale-105 hover:shadow-primary/20 border-2 border-accent/50 p-2 bg-white">
-                <CardContent className="p-0 rounded-[0.8rem] overflow-hidden">
-                  <Image
-                    src={aboutImage.imageUrl}
-                    alt={aboutImage.description}
-                    width={500}
-                    height={600}
-                    className="object-cover aspect-[4/5]"
-                    data-ai-hint={aboutImage.imageHint}
-                  />
-                </CardContent>
-              </Card>
-            )}
+            <Card className="overflow-hidden shadow-2xl rounded-2xl w-full max-w-sm transform transition-all duration-500 hover:scale-105 hover:shadow-primary/20 border-2 border-accent/50 p-2 bg-white">
+              <CardContent className="p-0 rounded-[0.8rem] overflow-hidden">
+                <Image
+                  src={"/ysopreciosa.jpg"}
+                  alt={"A portrait of Sole, the pastry chef."}
+                  width={500}
+                  height={600}
+                  className="object-cover aspect-[4/5]"
+                  data-ai-hint={"woman baker"}
+                />
+              </CardContent>
+            </Card>
           </div>
         </div>
       </div>
