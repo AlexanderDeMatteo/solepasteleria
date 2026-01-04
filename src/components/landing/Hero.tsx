@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import heroImage from "@/lib/creaciones/tortas/iso-tortas.jpg";
 
 export function Hero() {
 
@@ -53,11 +54,12 @@ export function Hero() {
               <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-accent/10 blur-3xl rounded-full"></div>
               <div className="relative w-full max-w-md h-full">
                   <Image
-                      src={"/iso-tortas.jpg"}
+                      src={heroImage}
                       alt={"Chef with multiple artistic cakes"}
                       fill
                       className="object-contain rounded-[30%_70%_70%_30%_/_30%_30%_70%_70%] shadow-2xl"
                       priority
+                      placeholder="blur"
                       data-ai-hint={"chef cakes"}
                   />
               </div>

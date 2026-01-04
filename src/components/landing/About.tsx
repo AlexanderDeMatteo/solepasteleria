@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 import { KawaiiSun } from "../icons/KawaiiSun";
+import solePortrait from "@/lib/creaciones/tortas/ysopreciosa.jpg";
 
 export function About() {
   return (
@@ -31,11 +32,12 @@ export function About() {
             <Card className="overflow-hidden shadow-2xl rounded-2xl w-full max-w-sm transform transition-all duration-500 hover:scale-105 hover:shadow-primary/20 border-2 border-accent/50 p-2 bg-white">
               <CardContent className="p-0 rounded-[0.8rem] overflow-hidden">
                 <Image
-                  src={"/ysopreciosa.jpg"}
+                  src={solePortrait}
                   alt={"A portrait of Sole, the pastry chef."}
                   width={500}
                   height={600}
                   className="object-cover aspect-[4/5]"
+                  placeholder="blur"
                   data-ai-hint={"woman baker"}
                 />
               </CardContent>

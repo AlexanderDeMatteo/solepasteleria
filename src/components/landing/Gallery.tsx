@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+import Image, { type StaticImageData } from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 import {
   Carousel,
@@ -10,36 +10,43 @@ import {
 } from "@/components/ui/carousel";
 import { KawaiiSun } from "@/components/icons/KawaiiSun";
 
+import stichImg from "@/lib/creaciones/tortas/stich.jpg"
+import anosImg from "@/lib/creaciones/tortas/15-anos.jpg"
+import rosaImg from "@/lib/creaciones/tortas/15-rosa.jpg"
+import conejoRosa from "@/lib/creaciones/tortas/conejo-rosa.jpg"
+import marioCake from "@/lib/creaciones/tortas/mario-cake.jpg"
+
+
 export function Gallery() {
-  const cakeImages = [
+  const cakeImages: { id: string; description: string; imageUrl: StaticImageData; imageHint: string; }[] = [
     {
       "id": "cake-stich",
       "description": "A cute cake themed after Stitch from Lilo & Stitch.",
-      "imageUrl": "/stich.jpg",
+      "imageUrl": stichImg,
       "imageHint": "character cake"
     },
     {
       "id": "cake-15-elegant",
       "description": "An elegant, multi-tiered cake for a 15th birthday celebration.",
-      "imageUrl": "/15-anos.jpg",
+      "imageUrl": anosImg,
       "imageHint": "quinceanera cake"
     },
     {
       "id": "cake-bunny",
       "description": "An adorable pink bunny cake.",
-      "imageUrl": "/conejo-rosa.jpg",
+      "imageUrl": conejoRosa,
       "imageHint": "bunny cake"
     },
      {
       "id": "cake-mario",
       "description": "A colorful Super Mario themed cake.",
-      "imageUrl": "/mario-cake.jpg",
+      "imageUrl": marioCake,
       "imageHint": "video-game cake"
     },
     {
       "id": "cake-15-pink",
       "description": "A beautiful pink and gold cake for a 15th birthday.",
-      "imageUrl": "/15-rosa.jpg",
+      "imageUrl": rosaImg,
       "imageHint": "pink cake"
     }
   ]
@@ -76,8 +83,7 @@ export function Gallery() {
                       <Image
                         src={image.imageUrl}
                         alt={image.description}
-                        width={500}
-                        height={700}
+                        placeholder="blur"
                         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                         data-ai-hint={image.imageHint}
                       />
