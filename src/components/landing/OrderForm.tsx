@@ -125,7 +125,7 @@ export function OrderForm() {
     <section id="order-form" className="py-16 sm:py-24 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
         <div className="text-center mb-12">
-          <h2 className="font-bold text-4xl tracking-tight sm:text-5xl">
+          <h2 className="font-bold text-4xl tracking-tight sm:text-5xl text-foreground">
             Haz tu <span className="text-primary">Pedido</span>
           </h2>
           <p className="mt-4 max-w-2xl mx-auto text-lg text-gray-500">
@@ -242,4 +242,3 @@ export function OrderForm() {
     </section>
   );
 }
-

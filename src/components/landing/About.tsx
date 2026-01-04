@@ -5,6 +5,7 @@ import ysopreciosa from "../../lib/ysopreciosa.jpg";
 import { Card, CardContent } from "@/components/ui/card";
 import { Sun } from "lucide-react";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
+import { KawaiiSun } from "../icons/KawaiiSun";
 
 export function About() {
   const aboutImage = PlaceHolderImages.find(p => p.id === 'sole-portrait');
@@ -14,13 +15,13 @@ export function About() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1">
-            <h2 className="font-headline text-4xl font-extrabold tracking-tight sm:text-5xl text-primary">
+            <h2 className="font-headline text-4xl font-extrabold tracking-tight sm:text-5xl text-foreground">
               Nuestra Historia
             </h2>
-            <div className="flex my-4">
-                <Sun className="mr-2 h-6 w-6 text-accent" />
-                <Sun className="mr-2 h-6 w-6 text-accent" style={{animationDelay: "0.2s"}}/>
-                <Sun className="h-6 w-6 text-accent" style={{animationDelay: "0.4s"}}/>
+             <div className="flex my-4">
+                <div className="w-8 h-8 text-accent">
+                    <KawaiiSun />
+                </div>
             </div>
             <p className="mt-4 text-lg text-gray-600">
               SolePasteleria nació de un sueño y una pasión por la repostería que se ha cultivado desde la infancia. Cada torta es una obra de arte, una expresión de amor y dedicación.
@@ -34,10 +35,10 @@ export function About() {
           </div>
           <div className="order-1 md:order-2 flex justify-center">
             {aboutImage && (
-              <Card className="overflow-hidden shadow-2xl rounded-2xl w-full max-w-sm transform transition-all duration-500 hover:scale-105 hover:shadow-primary/20">
-                <CardContent className="p-0">
+              <Card className="overflow-hidden shadow-2xl rounded-2xl w-full max-w-sm transform transition-all duration-500 hover:scale-105 hover:shadow-primary/20 border-2 border-accent/50 p-2 bg-white">
+                <CardContent className="p-0 rounded-[0.8rem] overflow-hidden">
                   <Image
-                    src={ysopreciosa}
+                    src={aboutImage.imageUrl}
                     alt={aboutImage.description}
                     width={500}
                     height={600}
