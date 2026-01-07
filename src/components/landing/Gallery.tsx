@@ -1,3 +1,4 @@
+
 "use client";
 import Image, { type StaticImageData } from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
@@ -10,11 +11,11 @@ import {
 } from "@/components/ui/carousel";
 import { KawaiiSun } from "@/components/icons/KawaiiSun";
 
-import stichImg from "@/lib/creaciones/tortas/stich.jpg"
-import anosImg from "@/lib/creaciones/tortas/15-anos.jpg"
-import rosaImg from "@/lib/creaciones/tortas/15-rosa.jpg"
-import conejoRosa from "@/lib/creaciones/tortas/conejo-rosa.jpg"
-import marioCake from "@/lib/creaciones/tortas/mario-cake.jpg"
+import stichImg from "@/lib/creaciones/tortas/stich.jpg";
+import anosImg from "@/lib/creaciones/tortas/15-anos.jpg";
+import rosaImg from "@/lib/creaciones/tortas/15-rosa.jpg";
+import conejoRosa from "@/lib/creaciones/tortas/conejo-rosa.jpg";
+import marioCake from "@/lib/creaciones/tortas/mario-cake.jpg";
 
 
 export function Gallery() {
