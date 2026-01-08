@@ -1,9 +1,10 @@
 
-import { Hero } from "@/components/landing/Hero";
-import { About } from "@/components/landing/About";
+
+import  About  from "@/components/landing/About";
 import { Gallery } from "@/components/landing/Gallery";
-import { OrderForm } from "@/components/landing/OrderForm";
-import { Footer } from "@/components/landing/Footer";
+import OrderForm from "@/components/landing/OrderForm";
+import  Footer  from "@/components/landing/Footer";
+import Hero from "@/components/landing/Hero";
 
 export default function Home() {
   return (
