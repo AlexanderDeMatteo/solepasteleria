@@ -29,7 +29,7 @@ export default function Footer() {
               <div className="bg-white/20 p-1.5 rounded-full">
                 <Phone size={14} />
               </div>
-              <span className="opacity-90 hover:opacity-100">+58 412 123 4567</span>
+              <span className="opacity-90 hover:opacity-100">+58 424 597 8056</span>
             </div>
             
             <div className="flex items-center justify-center md:justify-start gap-3 group">
